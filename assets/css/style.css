@@ -69,6 +69,28 @@ section .cards .card .botao button a{
   text-decoration: none; color: #FFFFFF;
 }
 
+/* Seção 2 */
+
+#img2{
+    width: 100%;
+    height: 50%;
+}
+
+#contanier{
+    background: #E7585A;
+    height: 50%;
+    position:relative;
+}
+
+#contanier img{
+    width: 100%;
+}
+
+#div{
+    overflow: hidden;
+    padding: 30px;
+}
+
 /* Modelo Teste de responsividade */
 
 @media(max-width:600px){
