@@ -1,7 +1,45 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Oswald:wght@200&family=Poppins:wght@700&family=Rubik&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
 }
+body{
+    background-color: #F6F6F6;  font-family: "Poppins", sans-serif;
+}
+main{
+    /* Modelo Teste */
+    max-width: 1100px; margin: 0 auto; 
+}
+section{
+  /* Testagem do scroll*/
+  margin-bottom: 100px;
+}
+section .titulo{
+    font-size: 45px;
+    color: #E7585A;
+    margin: 10px;
+}
+section .cards{
+    display: flex; flex-wrap: wrap; 
+}
+section .cards > div{
+    flex: 1 1 100px;
+}
+section .cards .card{
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px 80px 20px 80px; 
+}
+
+section .cards .card img{
+    width: 100%;
+}
+
