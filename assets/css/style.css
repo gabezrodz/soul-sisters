@@ -43,3 +43,46 @@ section .cards .card img{
     width: 100%;
 }
 
+section .cards .card h2{
+    text-align: center; margin-top: 10px;
+    color: #000000; font-weight: normal;
+    font-size: 25px;
+}
+section .cards .card p{
+    margin-top: 10px; margin-bottom: 30px; color: #767676;
+    text-align: left; font-size: 20px;
+}
+section .cards .card h2, p{
+    font-family: "Rubik", sans-serif;
+}
+section .cards .card button{
+    background-color: #E7585A; border: none; color: #FFFFFF;
+    font-size: 25px; font-weight: bold; text-transform: uppercase;
+    padding: 10px 20px 10px 20px; cursor: pointer;
+    border-radius: 15px;
+}
+section .cards .card .botao{
+    text-align: center;
+}
+
+section .cards .card .botao button a{
+  text-decoration: none; color: #FFFFFF;
+}
+
+/* Modelo Teste de responsividade */
+
+@media(max-width:600px){
+    section .titulo{
+        font-size: 20px; text-align: center;
+    }
+    section .cards .card{
+        margin: 20px 20px 20px 20px;
+    }
+}
+
+@media(max-width:1024px){
+    section .cards .card{
+        margin: 20px 20px 20px 20px;
+    }
+}
+
