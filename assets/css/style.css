@@ -27,6 +27,8 @@ section .titulo {
 section .cards {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
 }
 section .cards > div {
   flex: 1 1 100px;
@@ -88,6 +90,7 @@ section .cards .card .botao button a {
   background: #e7585a;
   margin: 0;
   width: 100%;
+  padding: 30px;
 }
 
 #logo {
@@ -102,7 +105,7 @@ nav {
 }
 
 nav ul {
-  padding-left: 40rem;
+  padding-left: 18rem;
   justify-content: space-between;
 }
 
@@ -124,6 +127,8 @@ nav ul li a {
 
 #secao-1-main {
   display: flex;
+  padding: 30px;
+  overflow: hidden;
 }
 
 #secao-1-text-header {
@@ -159,28 +164,25 @@ nav ul li a {
   display: inline-block;
 }
 
+.fas {
+  display: contents !important;
+}
+
+
+
 /* Seção 2 */
 
 .img2 {
   width: 200%;
   float: right;
 }
-
-#contanier {
+#contanier-div {
+  max-width: 1100px;
+  margin: auto;
   height: 100%;
-  /* position:relative; */
-}
-
-#contanier #img2 {
-  width: 100%;
-}
-
-div {
-  /* background: red; */
   overflow: hidden;
-  padding: 30px;
-  /* position: relative; */
-  /* width: 100%; */
+  padding: 30px
+  /* position:relative; */
 }
 
 .p {
@@ -213,10 +215,13 @@ div {
   height: 576px;
   left: 911px;
   top: 1355px;
-
+  
   /* background: #0F4C81;  */
-  box-shadow: inset 28em 0em 0em 0em #0f4c81;
+  box-shadow:  -1em 1em 0em 0em #0f4c81;
+  margin: 0 50px;
 }
+
+
 
 /* Modelo Teste de responsividade */
 
