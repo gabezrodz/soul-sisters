@@ -23,6 +23,7 @@ section .titulo{
     font-size: 45px;
     color: #E7585A;
     margin: 10px;
+    text-align: center;
 }
 section .cards{
     display: flex; flex-wrap: wrap; 
@@ -39,7 +40,7 @@ section .cards .card{
     margin: 20px 80px 20px 80px; 
 }
 
-section .cards .card img{
+section .cards .card{
     width: 100%;
 }
 
@@ -71,25 +72,63 @@ section .cards .card .botao button a{
 
 /* Seção 2 */
 
-#img2{
-    width: 100%;
-    height: 50%;
+.img2{
+    width: 200%;
+    float: right;
 }
 
 #contanier{
-    background: #E7585A;
-    height: 50%;
-    position:relative;
+    height: 100%;
+    /* position:relative; */
 }
 
-#contanier img{
+#contanier #img2{
     width: 100%;
+} 
+
+div{
+    /* background: red; */
+    overflow: hidden;
+    padding: 30px;  
+    /* position: relative; */
+    /* width: 100%; */
 }
 
-#div{
-    overflow: hidden;
-    padding: 30px;
+.p{
+    float: left;
 }
+
+.img2 p{
+    display: inline-block;
+}
+
+#titulo2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75.58px;
+    line-height: 113px;
+    text-align: center;
+    color: #0F4C81;
+}
+
+.retangule{
+    /* border-style: solid;
+    color: #0F4C81;
+    border-bottom-width: 20px;
+    border-top-width: 0px;
+    border-right-width: 20px;
+    border-left-width: 20px;  
+    border: 10px solid;
+    border-image: linear-gradient(0deg,#0F4C81, #F6F6F6 100%)1;*/
+    width: 472px;
+    height: 576px;
+    left: 911px;
+    top: 1355px; 
+
+    /* background: #0F4C81;  */
+    box-shadow: 0px 50px 5px 12px #0F4C81;
+}
+
 
 /* Modelo Teste de responsividade */
 
