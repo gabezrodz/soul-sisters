@@ -104,6 +104,18 @@ nav ul li a {
     list-style-type: none;
 }
 
+#secao-1-main {
+    display: flex;    
+}
+
+#secao-1-text-header, #secao-1-text {
+    color: #FFFFFF;
+}
+
+#secao-1-arte {
+    width: 517px;
+}
+
 /* Seção 2 */
 
 .img2{
