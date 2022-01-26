@@ -126,7 +126,9 @@ div{
     top: 1355px; 
 
     /* background: #0F4C81;  */
-    box-shadow: 0px 50px 5px 12px #0F4C81;
+    box-shadow:inset 28em 0em 0em 0em #0F4C81;
+    
+
 }
 
 
