@@ -20,8 +20,8 @@ section {
 }
 section .titulo {
   font-size: 45px;
-  color: #e7585a;
-  margin: 10px;
+  color: #0F4C81;
+  margin-bottom: 20px;
   text-align: center;
 }
 section .cards {
@@ -36,10 +36,9 @@ section .cards > div {
 section .cards .card {
   background-color: #ffffff;
   padding: 30px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   text-align: center;
-  margin: 20px 80px 20px 80px;
+  margin: 0px 20px 0px 20px;
 }
 
 section .cards .card {
@@ -51,7 +50,8 @@ section .cards .card h2 {
   margin-top: 10px;
   color: #000000;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 21px;
+  margin-bottom: 15px;
 }
 section .cards .card p {
   margin-top: 10px;
@@ -224,19 +224,17 @@ nav ul li a {
 
 
 /* Modelo Teste de responsividade */
-
-@media (max-width: 600px) {
-  section .titulo {
-    font-size: 20px;
-    text-align: center;
-  }
+@media (max-width: 1440px) {
   section .cards .card {
     margin: 20px 20px 20px 20px;
   }
 }
 
-@media (max-width: 1024px) {
-  section .cards .card {
-    margin: 20px 20px 20px 20px;
+@media (max-width: 884px) {
+  section .titulo {
+    text-align: center;
+  }
+  section .cards > div {
+    flex: 1 1 250px;
   }
 }
