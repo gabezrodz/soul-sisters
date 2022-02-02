@@ -13,11 +13,6 @@ body {
   background-color: #f6f6f6;
   font-family: "Poppins", sans-serif;
 }
-
-section {
-  /* Testagem do scroll*/
-  margin-bottom: 100px;
-}
 section .titulo {
   font-size: 45px;
   color: #0F4C81;
