@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Oswald:wght@200&family=Poppins:wght@700&family=Rubik&display=swap');
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box; font-family: "Poppins", sans-serif;
+}
+.section-geral{
+    background-color:  #1e1f1d;
+    padding: 5px;
+}
+
+.section-geral .section-titulo h1{
+    color: #e0e1e3; font-size: 75px;
+    text-align: center; text-transform: uppercase;
+}
+.section-informacoes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section-geral .section-informacoes .section-informacoes-1{
+    margin-top: 180px;
+    margin-left: 15px;
+}
+.section-geral .section-informacoes .section-informacoes-1 h1{
+    color: #FFFFFF; font-family: "Rubik", sans-serif;
+    font-size: 32px;
+}
+.section-geral .section-informacoes .section-informacoes-1 p{
+    color: #FFFFFF; font-family: "Rubik", sans-serif;
+    margin-top: 10px; font-size: 24px;
+    margin-right: 40px;
+}
+.section-geral .section-informacoes .section-informacoes-1 button{
+    background-color: #0F4C81; margin-top: 20px;
+    color: #FFFFFF; text-transform: uppercase; border: none;
+    padding: 10px 10px 10px 10px; font-size: 30px;
+    border-radius: 15px; cursor: pointer; width: 90%;
+}
+.section-geral .section-informacoes-2 h1{
+    color: #e0e1e3; font-size: 500px;
+}
+
+.section-geral .section-informacoes .section-informacoes-3{
+    margin-top: 185px;
+}
+.section-geral .section-informacoes-3 h1{
+    color: #FFFFFF; font-size: 22px;
+    margin-right: 75px;
+}
+
+.section-geral-fonte .section-informacoes-fonte{
+    text-align: right; background-color: #1e1f1d;
+}
+.section-geral-fonte .section-informacoes-fonte p{
+    color: #e0e1e3;
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 20px; font-size: 25px;
+}
+
+@media(max-width:1280px){
+    .section-geral .section-informacoes .section-informacoes-1 button{
+        font-size: 27px; width: 90%;
+    }
+}
+
+@media(max-width:1114px){
+    .section-geral .section-informacoes .section-informacoes-1 button{
+        font-size: 20px; width: 95%;
+    }
+}
+
+@media(max-width:1082px){
+    .section-informacoes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-informacoes > div{
+        flex:1 1 300px;
+    }
+    .section-geral .section-informacoes .section-informacoes-1{
+        margin-top: 100px;
+    }
+    .section-geral .section-informacoes .section-informacoes-1 p{
+        margin-right: 0px;
+    }
+    .section-geral .section-informacoes .section-informacoes-1 button{
+        background-color: #0F4C81; margin-top: 10px;
+        color: #FFFFFF; text-transform: uppercase; border: none;
+        padding: 10px 5px 10px 5px; font-size: 20px;
+        border-radius: 15px; width: 80%;
+    }
+    .section-geral .section-informacoes-2 h1{
+        color: #e0e1e3; font-size: 280px;
+    }
+    .section-geral .section-informacoes .section-informacoes-3 h1{
+        margin: 0px; font-size: 25px;
+        margin-top: 50px;
+    }
+    .section-geral .section-informacoes .section-informacoes-3{
+        margin-top: 18px; 
+    }
+}
+
+@media(max-width:860px){
+    .section-geral .section-informacoes .section-informacoes-3 h1{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:965px){
+    .section-geral .section-informacoes .section-informacoes-3{
+        margin-top: 0px; text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:731px){
+    .section-informacoes{
+        display: flex; flex-wrap: wrap;
+    }
+    .section-informacoes > div{
+        flex: 1 1 200px;
+    }
+    .section-geral .section-informacoes .section-informacoes-3 h1{
+        margin-top: 10px; text-align: center;
+        margin-bottom: 30px;
+    }
+    .section-geral .section-informacoes .section-informacoes-1 button{
+        background-color: #0F4C81; margin-top: 10px;
+        color: #FFFFFF; text-transform: uppercase; border: none;
+        padding: 10px 5px 10px 5px; font-size: 20px;
+        border-radius: 15px; width: 80%;
+    }
+    .section-geral-fonte .section-informacoes-fonte p{
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:569px){
+    .section-geral .section-titulo h1{
+        font-size: 60px;
+    }
+    .section-informacoes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-geral .section-informacoes .section-informacoes-1{
+        margin: 10px;
+    }
+    .section-geral .section-informacoes .section-informacoes-1{
+        margin-top: 30px;
+    }
+    .section-geral .section-informacoes .section-informacoes-1 button{
+        width: 90%;
+    }
+    .section-geral .section-informacoes-2 h1{
+        text-align: center;
+    }
+    .section-geral .section-informacoes .section-informacoes-3 h1{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:338px){
+    .section-geral .section-titulo h1{
+        font-size: 40px;
+    }
+    .section-geral .section-informacoes-2 h1{
+        font-size: 200px;
+    }
+    .section-geral .section-informacoes .section-informacoes-3 h1{
+        font-size: 35px;
+    }
+    .section-geral-fonte .section-informacoes-fonte p{
+        text-align: center;
+    }
+}
