@@ -1,0 +1,52 @@
+.carousel-primeiro{
+    background-color: #F16969;
+}
+.carousel-primeiro .carousel-primeiro-topo{
+    display: grid; grid-template-columns: 80% 20%;
+}
+.carousel-primeiro .carousel-primeiro-topo .carousel-primeiro-topo-titulo{
+    color: #FFFFFF; font-size: 70px;
+    margin-left: 70px;
+}
+.carousel-primeiro .carousel-primeiro-corpo{
+    display: grid; grid-template-columns: 57% 33% 10%;
+    align-items: center;
+}
+.carousel-primeiro .carousel-primeiro-corpo .carousel-primeiro-corpo-paragrafo{
+    color: #FFFFFF; font-size: 45px;
+    margin-left: 70px; font-weight: 500;
+}
+.carousel-primeiro .carousel-primeiro-corpo .carousel-primeiro-corpo-botao{
+    text-align: center;
+}
+.carousel-primeiro .carousel-primeiro-corpo .carousel-primeiro-corpo-botao button{
+    background-color: transparent; border: none; color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 55px;
+    margin-left: 0px; cursor: pointer;
+}
+.carousel-primeiro .carousel-primeiro-rodape{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.carousel-primeiro .carousel-primeiro-rodape .carousel-primeiro-rodape-botao{
+    margin-top: 60px;
+}
+.carousel-primeiro .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+    background-color: #303030; color: #FFFFFF; border: none;
+    font-size: 38px; border-radius: 15px;
+    padding: 8px 0px 8px 0px; text-transform: uppercase;
+    cursor: pointer;
+}
+
+.carousel-primeiro .carousel-primeiro-rodape-texto{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.carousel-primeiro .carousel-primeiro-rodape-texto .carousel-primeiro-rodape-texto-paragrafo{
+    margin-bottom: 40px; margin-top: 20px;
+}
+.carousel-primeiro .carousel-primeiro-rodape-texto .carousel-primeiro-rodape-texto-paragrafo h1{
+    color: #FFFFFF;
+    font-size: 40px; text-align: center;
+}
