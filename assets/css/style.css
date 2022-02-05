@@ -16,14 +16,15 @@ body {
 /* Seção 1 - home */
 
 #secao-1 {
-  background: #e7585a;
-  margin: 0;
+  background-image: url("../image/headder-background.png");
   width: 100%;
+  height: 1000px;
   padding: 30px;
+  
 }
 
 #logo {
-  width: 285px;
+  width: 230px;
   height: auto;
 }
 
@@ -31,10 +32,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-left: 25px;
 }
 
 nav ul {
-  padding-left: 18rem;
+  padding-left: 25rem;
   justify-content: space-between;
 }
 
@@ -44,7 +46,7 @@ nav ul li {
   justify-content: space-between;
   list-style-type: none;
   padding-left: 0.5rem;
-  font-size: 31px;
+  font-size: 25px;
   padding: 10px;
 }
 
@@ -52,6 +54,9 @@ nav ul li a {
   color: #ffffff;
   text-decoration: none;
   list-style-type: none;
+}
+#secao-1-content{
+  width: 55%;
 }
 
 #secao-1-main {
@@ -63,15 +68,17 @@ nav ul li a {
 #secao-1-text-header {
   color: #ffffff;
   font-weight: bold;
-  font-size: 75.58px;
-  line-height: 113px;
+  font-size: 51px;
+  line-height: 75px;
+  margin: 50px 0;
+  
 }
 
 #secao-1-text {
   color: #ffffff;
-  font-weight: 600;
-  font-size: 42.63px;
-  line-height: 64px;
+  margin-top: 52px;
+  font-size: 30px;
+  
 }
 
 #secao-1-arte {
@@ -80,17 +87,18 @@ nav ul li a {
 }
 
 #saiba-como {
-  background: #0f4c81;
+  background: #E7585A;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 600;
-  padding: 0px 20px;
+  padding: 0px 25px;
   max-width: fit-content;
-  border-radius: 10px;
+  border-radius: 20px;
   cursor: pointer;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.1em;
   line-height: 75px;
   display: inline-block;
+  margin-top: 80px;
 }
 
 .fas {
@@ -109,6 +117,7 @@ nav ul li a {
   height: 100%;
   overflow: hidden;
   padding: 30px;
+  margin-top: 50px;
   /* position:relative; */
 }
 
