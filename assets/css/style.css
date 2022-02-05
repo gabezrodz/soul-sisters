@@ -237,7 +237,7 @@ section .cards .card .botao button a {
     justify-content: flex-start;
   }
   #secao-1{
-    background-image: url("../assets/image/IMAGE-HOME-DEGRADE-NOTEXT-MOBILE.png");
+    background-image: url("../image/IMAGE-HOME-DEGRADE-NOTEXT-MOBILE.png");
     background-repeat: no-repeat;
     background-size: contain;
     padding: 30px 0px;
