@@ -11,75 +11,9 @@
 
 body {
   background-color: #f6f6f6;
-  font-family: "Poppins", sans-serif;
-}
-section .titulo {
-  font-size: 45px;
-  color: #0F4C81;
-  margin-bottom: 20px;
-  text-align: center;
-}
-section .cards {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  margin: auto;
-}
-section .cards > div {
-  flex: 1 1 100px;
-}
-section .cards .card {
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 15px;
-  text-align: center;
-  margin: 0px 20px 0px 20px;
 }
 
-section .cards .card {
-  width: 100%;
-}
-
-section .cards .card h2 {
-  text-align: center;
-  margin-top: 10px;
-  color: #000000;
-  font-weight: normal;
-  font-size: 21px;
-  margin-bottom: 15px;
-}
-section .cards .card p {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  color: #767676;
-  text-align: left;
-  font-size: 20px;
-}
-section .cards .card h2,
-p {
-  font-family: "Rubik", sans-serif;
-}
-section .cards .card button {
-  background-color: #e7585a;
-  border: none;
-  color: #ffffff;
-  font-size: 25px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 10px 20px 10px 20px;
-  cursor: pointer;
-  border-radius: 15px;
-}
-section .cards .card .botao {
-  text-align: center;
-}
-
-section .cards .card .botao button a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-/* Seção 1 */
+/* Seção 1 - home */
 
 #secao-1 {
   background: #e7585a;
@@ -163,9 +97,7 @@ nav ul li a {
   display: contents !important;
 }
 
-
-
-/* Seção 2 */
+/* Seção 2 - O que é a soul sisters*/
 
 .img2 {
   width: 200%;
@@ -176,7 +108,7 @@ nav ul li a {
   margin: auto;
   height: 100%;
   overflow: hidden;
-  padding: 30px
+  padding: 30px;
   /* position:relative; */
 }
 
@@ -210,13 +142,75 @@ nav ul li a {
   height: 576px;
   left: 911px;
   top: 1355px;
-  
+
   /* background: #0F4C81;  */
-  box-shadow:  -1em 1em 0em 0em #0f4c81;
+  box-shadow: -1em 1em 0em 0em #0f4c81;
   margin: 0 50px;
 }
 
+/* Seção 4  - cards */
+section .titulo {
+  font-size: 45px;
+  color: #0f4c81;
+  margin-bottom: 20px;
+  text-align: center;
+}
+section .cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+section .cards > div {
+  flex: 1 1 100px;
+}
+section .cards .card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+}
 
+section .cards .card {
+  width: 100%;
+}
+
+section .cards .card h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #000000;
+  font-weight: normal;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+section .cards .card p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #767676;
+  text-align: left;
+  font-size: 20px;
+}
+
+section .cards .card button {
+  background-color: #e7585a;
+  border: none;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+section .cards .card .botao {
+  text-align: center;
+}
+
+section .cards .card .botao button a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* Modelo Teste de responsividade */
 @media (max-width: 1440px) {
@@ -234,15 +228,15 @@ nav ul li a {
   }
 }
 
-@media (max-width: 440px){
-  p{
+@media (max-width: 440px) {
+  p {
     margin-top: 10px;
   }
-  #titulo2{
+  #titulo2 {
     font-size: 25px;
   }
 
-  .retangule{
+  .retangule {
     margin-bottom: 30px;
   }
 }
