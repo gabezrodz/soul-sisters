@@ -3,11 +3,19 @@
 }
 .carousel-segundo .carousel-segundo-topo{
     display: grid;
-    grid-template-columns: 20% 65% 15%;
+    grid-template-columns: 20% 60% 20%;
 }
 .carousel-segundo .carousel-segundo-topo .carousel-segundo-topo-titulo{
     color: #FFFFFF; font-size: 60px; text-align: center;
     margin-top: 120px;
+}
+.carousel-segundo .carousel-segundo-topo-escondido{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    display: none;
+}
+.carousel-segundo .carousel-segundo-topo-escondido h1{
+    color: #FFFFFF; font-size: 50px; text-align: center;
 }
 
 .carousel-segundo .carousel-segundo-corpo{
@@ -16,7 +24,7 @@
     align-items: center;
 }
 .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo{
-    padding: 20px;
+    padding: 5px;
 }
 .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo p{
     color: #FFFFFF; font-size: 45px; text-align: center;
@@ -36,7 +44,7 @@
     background-color: #303030; color: #FFFFFF; border: none;
     font-size: 38px; border-radius: 15px;
     padding: 8px 0px 8px 0px; text-transform: uppercase;
-    cursor: pointer;
+    cursor: pointer; display: none;
 }
 .carousel-segundo .carousel-segundo-rodape-texto{
     display: grid;
@@ -49,4 +57,75 @@
 .carousel-segundo .carousel-segundo-rodape-texto .carousel-segundo-rodape-texto-paragrafo h1{
     color: #FFFFFF;
     font-size: 40px; text-align: center;
+}
+
+/* Display None */
+.carousel-segundo .carousel-segundo-topo .carousel-segundo-imagem-abs{
+    display: none;
+}
+
+
+
+@media(max-width:800px){
+    .carousel-segundo .carousel-segundo-topo .carousel-segundo-topo-titulo{
+        font-size: 45px;
+    }
+    .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo p{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:600px){
+    .carousel-segundo .carousel-segundo-topo .carousel-segundo-imagem-abs{
+        display: block;
+    }
+    .carousel-segundo .carousel-segundo-topo .carousel-segundo-topo-titulo h1{
+        display: none;
+    }
+    .carousel-segundo .carousel-segundo-topo{
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+    }
+    .carousel-segundo-rodape .carousel-segundo-rodape-botao{
+        display: none;
+    }
+    .carousel-segundo .carousel-segundo-topo-escondido{
+        display: block;
+    }
+    .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo p{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:480px){
+    .carousel-segundo-rodape-texto .carousel-segundo-rodape-texto-paragrafo h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:500px){
+    .carousel-segundo .carousel-segundo-topo-escondido h1{
+        font-size: 40px; padding: 5px;
+    }
+    .carousel-segundo .carousel-segundo-rodape-texto .carousel-segundo-rodape-texto-paragrafo h1{
+        font-size: 30px;
+    }
+    .carousel-segundo .carousel-segundo-corpo button{
+        font-size: 45px;
+    }
+}
+
+@media(max-width:450px){
+    .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo p{
+        font-size: 20px;
+    }
+    .carousel-segundo .carousel-segundo-corpo button{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:380px){
+    .carousel-segundo .carousel-segundo-rodape-texto .carousel-segundo-rodape-texto-paragrafo h1{
+        font-size: 25px;
+    }
 }

@@ -45,7 +45,7 @@
     background-color: #303030; color: #FFFFFF; border: none;
     font-size: 38px; border-radius: 15px;
     padding: 8px 0px 8px 0px; text-transform: uppercase;
-    cursor: pointer;
+    cursor: pointer; display: none;
 }
 .carousel-terceiro-rodape .carousel-terceiro-rodape-texto{
     display: grid;
@@ -58,4 +58,113 @@
 .carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1{
     color: #FFFFFF;
     font-size: 40px; text-align: center;
+}
+
+
+@media(max-width:793px){
+    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
+        font-size: 300px;
+    }
+}
+
+@media(max-width:744px){
+    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
+        font-size: 280px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:695px){
+    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
+        font-size: 260px;
+    }
+}
+
+@media(max-width:646px){
+    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
+        font-size: 42px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
+        font-size: 230px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:555px){
+    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
+        font-size: 42px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
+        font-size: 210px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
+        font-size: 30px;
+    }
+    .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
+        display: none;
+    }
+}
+
+@media(max-width:499px){
+    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
+        font-size: 42px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
+        font-size: 180px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
+        font-size: 30px;
+    }
+    .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
+    font-size: 45px;
+    }
+    
+}
+
+@media(max-width:415px){
+    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
+        font-size: 35px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
+        font-size: 150px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
+        font-size: 25px;
+    }
+    .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
+    font-size: 45px;
+    }
+    
+}
+
+@media(max-width:380px){
+    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
+        font-size: 30px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
+        font-size: 120px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
+        font-size: 20px;
+    }
+    .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
+    font-size: 45px;
+    }
+    
+}
+
+@media(max-width:480px){
+    .carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:380px){
+    .carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1{
+        font-size: 25px;
+    }
 }
