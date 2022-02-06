@@ -1,6 +1,10 @@
 /* Fontes */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Oswald:wght@200&family=Poppins:wght@700&family=Rubik&display=swap");
 
+
+html{
+  scroll-behavior: smooth;
+}
 * {
   padding: 0;
   margin: 0;
@@ -11,9 +15,18 @@
 
 body {
   background-color: #f6f6f6;
+  
 }
 
 /* Seção 1 - home */
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+button{
+  border: none;
+}
 
 #secao-1 {
   background-image: url("../image/headder-background.png");
@@ -223,6 +236,24 @@ section .cards .card .botao button a {
   text-decoration: none;
   color: #ffffff;
 }
+
+
+/* Botão retorno pra home */
+.home-page-btn{
+  background-color: #000000;
+  width: fit-content;
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+
+  
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 30px;
+}
+
+
 
 /* Modelo Teste de responsividade */
 @media (max-width: 1440px) {
