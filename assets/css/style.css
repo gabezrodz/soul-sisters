@@ -283,11 +283,13 @@ section .cards .card .botao button a {
     font-size: 25px;
     line-height: 40px;
     margin: 0px;
+    margin-top: -15px;
   }
 
   #secao-1-text{
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-right: 90px;
   }
 
   #logo{
@@ -300,10 +302,15 @@ section .cards .card .botao button a {
     line-height: 50px;
     border-radius: 15px;
     margin-left: 70px;
+    margin-top: 50px;
   }
   
   
   .navbar{
+    display: none;
+  }
+
+  .home-page-btn{
     display: none;
   }
   section .titulo {
@@ -315,6 +322,21 @@ section .cards .card .botao button a {
 }
 
 @media (max-width: 440px) {
+  
+  #saiba-como{
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 50px;
+    border-radius: 15px;
+    margin-left: 70px;
+  }
+
+  #secao-1-content{
+    width: 90%;
+    
+  }
+
+
   p {
     margin-top: 10px;
   }
@@ -325,4 +347,31 @@ section .cards .card .botao button a {
   .retangule {
     margin-bottom: 30px;
   }
+
+  
 }
+
+@media (max-width: 380px) {
+  #secao-1-content{
+    width: 100%;
+    
+  }
+  #secao-1-text{
+    font-size: 17px;
+    padding-right: 80px;
+  }
+
+  #saiba-como{
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 50px;
+    border-radius: 15px;
+    margin-left: 55px;
+    margin-top: 20px
+  }
+
+}
+
+
+
+
