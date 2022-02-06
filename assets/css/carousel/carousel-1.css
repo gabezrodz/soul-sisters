@@ -27,16 +27,16 @@
 }
 .carousel-primeiro .carousel-primeiro-rodape{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
-.carousel-primeiro .carousel-primeiro-rodape .carousel-primeiro-rodape-botao{
-    margin-top: 60px;
+.carousel-primeiro-rodape .carousel-primeiro-rodape-botao{
+    margin-top: 60px; text-align: center;
 }
-.carousel-primeiro .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+.carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
     background-color: #303030; color: #FFFFFF; border: none;
     font-size: 38px; border-radius: 15px;
     padding: 8px 0px 8px 0px; text-transform: uppercase;
-    cursor: pointer; display: none;
+    cursor: pointer; width: 35%;
 }
 
 .carousel-primeiro .carousel-primeiro-rodape-texto{
@@ -123,5 +123,58 @@
     }
     .carousel-primeiro .carousel-primeiro-rodape-texto .carousel-primeiro-rodape-texto-paragrafo h1{
         font-size: 25px;
+    }
+}
+
+@media(max-width:1114px){
+    .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        width: 40%;
+    }
+}
+
+@media(max-width:785px){
+     .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        width: 60%;
+    }
+}
+@media(max-width:710px){
+     .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:670px){
+    .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        width: 75%;
+    }
+}
+
+@media(max-width:537px){
+    .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:467px){
+     .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        width: 85%;
+    }
+}
+
+@media(max-width:425px){
+    .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        font-size: 25px; width: 80%;
+    }
+}
+
+@media(max-width:376px){
+    .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        font-size: 25px; width: 80%;
+    }
+}
+
+@media(max-width:334px){
+    .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
+        font-size: 20px; width: 80%;
     }
 }
