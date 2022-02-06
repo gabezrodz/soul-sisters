@@ -38,9 +38,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.carousel-terceiro-rodape .carousel-terceiro-rodape-botao{
-    margin-top: 60px;
-}
 .carousel-terceiro-rodape .carousel-terceiro-rodape-botao button{
     background-color: #303030; color: #FFFFFF; border: none;
     font-size: 38px; border-radius: 15px;
