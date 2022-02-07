@@ -303,7 +303,7 @@ section .cards .card .botao button a {
     height: 800px;
   }
 
-  .retangule{
+  .retangule {
     width: 38%;
     height: 470px;
   }
@@ -313,34 +313,49 @@ section .cards .card .botao button a {
   nav {
     display: flex;
     justify-content: flex-start;
+    margin-left: 0px;
   }
+
   #secao-1 {
-    background-image: url("../image/IMAGE-HOME-DEGRADE-NOTEXT-MOBILE.png");
+    background-image: url("../image/headder-background.png");
     background-repeat: no-repeat;
     background-size: contain;
     padding: 30px 0px;
-    height: 500px;
+    height: 540px;
   }
 
   #secao-1-content {
-    width: 80%;
+    width: 65%;
   }
 
   #secao-1-text-header {
-    font-size: 25px;
+    font-size: 38px;
     line-height: 40px;
     margin: 0px;
     margin-top: -15px;
   }
 
   #secao-1-text {
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 10px;
     padding-right: 90px;
   }
 
   #logo {
     width: 115px;
+    margin-left: 25px;
+  }
+
+
+  #titulo2{
+    font-size: 58px;
+    line-height: 20px;
+  }
+  .texto-sobre{
+    text-align: center;
+  }
+  h3{
+    margin: 25px 0px 25px 125px;
   }
 
   #saiba-como {
@@ -351,14 +366,17 @@ section .cards .card .botao button a {
     margin-left: 70px;
     margin-top: 50px;
   }
+  .retangule {
+    display: none;
+  }
 
   .navbar {
-    display: none;
+    margin-left: 20px;
+  }
+  nav ul li {
+    font-size: 20px;
   }
 
-  .home-page-btn {
-    display: none;
-  }
   section .titulo {
     text-align: center;
   }
@@ -376,6 +394,7 @@ section .cards .card .botao button a {
     margin-left: 70px;
   }
   #secao-1 {
+    background-image: url("../image/IMAGE-HOME-DEGRADE-NOTEXT-MOBILE.png");
     padding: 30px 0px 0px;
     height: 460px;
   }
@@ -409,6 +428,12 @@ section .cards .card .botao button a {
   }
 
   .retangule {
+    display: none;
+  }
+  .home-page-btn {
+    display: none;
+  }
+  .navbar{
     display: none;
   }
 }
