@@ -346,15 +346,14 @@ section .cards .card .botao button a {
     margin-left: 25px;
   }
 
-
-  #titulo2{
+  #titulo2 {
     font-size: 58px;
     line-height: 20px;
   }
-  .texto-sobre{
+  .texto-sobre {
     text-align: center;
   }
-  h3{
+  h3 {
     margin: 25px 0px 25px 125px;
   }
 
@@ -386,24 +385,36 @@ section .cards .card .botao button a {
 }
 
 @media (max-width: 440px) {
-  #saiba-como {
-    font-size: 20px;
-    padding: 0px 20px;
-    line-height: 50px;
-    border-radius: 15px;
-    margin-left: 70px;
-  }
   #secao-1 {
     background-image: url("../image/IMAGE-HOME-DEGRADE-NOTEXT-MOBILE.png");
     padding: 30px 0px 0px;
     height: 460px;
   }
+  #secao-1-text-header {
+    font-size: 28px;
+    padding-right: 50px;
+  }
+
+  #secao-1-text {
+    font-size: 18px;
+    margin-top: 10px;
+    padding-right: 90px;
+  }
+
   #secao-1-main {
     padding: 30px 15px 0px 25px;
   }
 
   #secao-1-content {
     width: 90%;
+  }
+  #saiba-como {
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 50px;
+    border-radius: 15px;
+    margin-left: 75px;
+    margin-top: 20px;
   }
 
   p {
@@ -415,11 +426,12 @@ section .cards .card .botao button a {
   }
 
   #contanier-div {
-    margin-top: 0px;
+    margin-top: 30px;
     padding: 0 30px;
   }
   h3 {
     font-size: 26px;
+    margin: 25px 0px 25px 20px;
   }
   .texto-sobre {
     margin-top: 0px;
@@ -433,7 +445,7 @@ section .cards .card .botao button a {
   .home-page-btn {
     display: none;
   }
-  .navbar{
+  .navbar {
     display: none;
   }
 }
@@ -441,6 +453,9 @@ section .cards .card .botao button a {
 @media (max-width: 380px) {
   #secao-1-content {
     width: 100%;
+  }
+  #secao-1-text-header {
+    font-size: 27px;
   }
   #secao-1-text {
     font-size: 17px;
@@ -456,5 +471,8 @@ section .cards .card .botao button a {
     border-radius: 15px;
     margin-left: 55px;
     margin-top: 20px;
+  }
+  #contanier-div {
+    margin-top: 0px;
   }
 }
