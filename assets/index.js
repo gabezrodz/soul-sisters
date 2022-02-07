@@ -26,11 +26,11 @@ const alteraCodCopia50 = function(){
 }
 const alteraCodCopia25 = function(){
    selecionaCodigoCopia.setAttribute('data-qr','00020126330014BR.GOV.BCB.PIX011135639514892520400005303986540525.005802BR5917Juliana Abbamonte6009Sao Paulo62070503***6304BC0E')
-   selecionaCodigoCopia.src = './assets/image/QR-25.png'
+   selecionaCodigoCopia.src = 'assets/image/QR-25.png'
 }
 const alteraCodCopiaOutro = function(){
    selecionaCodigoCopia.setAttribute('data-qr','00020126330014BR.GOV.BCB.PIX0111356395148925204000053039865802BR5917Juliana Abbamonte6009Sao Paulo62070503***6304F922')
-   selecionaCodigoCopia.src = './image/qr-qualquer-valor.png'
+   selecionaCodigoCopia.src = 'image/qr-qualquer-valor.png'
 }
 
 
