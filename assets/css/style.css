@@ -240,6 +240,40 @@ section .cards .card .botao button a {
   font-size: 30px;
 }
 
+/* Footer */
+
+#contato{
+  display: flex;
+  align-items: center;
+}
+
+.box-logo{
+
+  
+}
+.box-direitos{
+ 
+  flex-grow: 2;
+}
+.box-contato{
+  
+}
+
+
+.logo-footer{
+  width: 175px ;
+}
+
+.logo-redes{
+  width: 50px;
+}
+
+
+
+
+
+
+
 /* Modelo Teste de responsividade */
 @media (max-width: 1980px) {
   #secao-1 {
