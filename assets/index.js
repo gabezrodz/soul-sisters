@@ -30,7 +30,7 @@ const alteraCodCopia25 = function(){
 }
 const alteraCodCopiaOutro = function(){
    selecionaCodigoCopia.setAttribute('data-qr','00020126330014BR.GOV.BCB.PIX0111356395148925204000053039865802BR5917Juliana Abbamonte6009Sao Paulo62070503***6304F922')
-   selecionaCodigoCopia.src = 'image/qr-qualquer-valor.png'
+   selecionaCodigoCopia.src = 'assets/image/qualquer-valor.png'
 }
 
 
