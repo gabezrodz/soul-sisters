@@ -279,10 +279,33 @@ section .cards .card .botao button a {
 @media (max-width: 1080px) {
   #secao-1 {
     background-size: contain;
-    width: 120%;
+    height: 715px;
   }
   nav ul {
     padding-left: 2rem;
+  }
+
+  #secao-1-text-header {
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+  }
+  #secao-1-text {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  #saiba-como {
+    margin-top: 30px;
+  }
+  #conatanier-div {
+    margin-top: 0px;
+    height: 800px;
+  }
+
+  .retangule{
+    width: 38%;
+    height: 470px;
   }
 }
 
