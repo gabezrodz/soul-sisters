@@ -101,6 +101,9 @@
     .carousel-segundo-rodape-texto .carousel-segundo-rodape-texto-paragrafo h1{
         font-size: 30px;
     }
+    .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo p{
+        font-size: 25px;
+    }
 }
 
 @media(max-width:500px){
@@ -117,7 +120,7 @@
 
 @media(max-width:450px){
     .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo p{
-        font-size: 20px;
+        font-size: 25px;
     }
     .carousel-segundo .carousel-segundo-corpo button{
         font-size: 30px;

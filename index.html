@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/carousel/carousel-1.css" />
     <link rel="stylesheet" href="assets/css/carousel/carousel-2.css" />
     <link rel="stylesheet" href="assets/css/carousel/carousel-3.css" />
+    <link rel="stylesheet" href="assets/css/carousel/carousel.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -86,8 +87,11 @@
             >!
           </h3>
         </div>
-
-        <!-- Seção 3 - Primeiro -->
+        
+        <div class="tour__gallery">
+          <ul class="picture__slider">
+            <li class="carousel__image">
+             <!-- Seção 3 - Primeiro -->
         <div id="campanha" class="carousel-primeiro">
           <img src="assets/image/carousel/onda-1.png" />
           <div class="carousel-primeiro-topo">
@@ -111,9 +115,9 @@
             <div class="carousel-primeiro-corpo-paragrafo"></div>
 
             <div class="carousel-primeiro-corpo-botao">
-              <button>
+              <!--<button>
                 <i class="fa fa-arrow-right"></i>
-              </button>
+              </button>-->
             </div>
           </div>
 
@@ -133,8 +137,9 @@
           </div>
         </div>
         <!-- Seção 3 - Primeiro -->
-
-        <!-- Seção 3 - Segundo -->
+            </li>
+            <li class="carousel__image">
+              <!-- Seção 3 - Segundo -->
         <div class="carousel-segundo">
           <img src="assets/image/carousel/onda-2.png" />
           <div class="carousel-segundo-topo">
@@ -157,9 +162,9 @@
 
           <div class="carousel-segundo-corpo">
             <div class="carousel-segundo-corpo-botao-esquerdo">
-              <button>
+              <!--<button>
                 <i class="fa fa-arrow-left"></i>
-              </button>
+              </button>-->
             </div>
             <div class="carousel-segundo-corpo-paragrafo">
               <p>
@@ -168,9 +173,9 @@
               </p>
             </div>
             <div class="carousel-segundo-corpo-botao-direito">
-              <button>
+              <!--<button>
                 <i class="fa fa-arrow-right"></i>
-              </button>
+              </button>-->
             </div>
           </div>
 
@@ -209,15 +214,16 @@
           </div>
         </div>
         <!-- Seção 3 - Segundo -->
-
-        <!-- Seção 3 - Terceiro -->
+            </li>
+            <li class="carousel__image">
+              <!-- Seção 3 - Terceiro -->
         <div class="carousel-terceiro-geral">
           <img src="assets/image/carousel/onda-3.png" />
           <div class="carousel-terceiro">
             <div class="carousel-terceiro-botao-esquerdo">
-              <button>
+              <!--<button>
                 <i class="fa fa-arrow-left"></i>
-              </button>
+              </button>-->
             </div>
 
             <div class="carousel-terceiro-corpo">
@@ -262,6 +268,17 @@
           </div>
         </div>
         <!-- Seção 3 - Terceiro -->
+            </li>
+          </ul>
+          <div class="controls">
+            <button class="btn--prev is-hidden" style="width: 10%;">
+              <i class="fa fa-arrow-left"></i>
+            </button>
+            <button class="btn--next" style="width: 10%;">
+              <i class="fa fa-arrow-right"></i> 
+            </button>
+          </div>
+        </div>
 
         <div id="ajude-agora" class="titulo">
           <h1>Como posso fazer a diferença?</h1>
