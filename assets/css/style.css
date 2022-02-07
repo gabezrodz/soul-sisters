@@ -39,7 +39,6 @@ nav {
 }
 
 nav ul {
- 
   justify-content: space-between;
 }
 
@@ -122,8 +121,21 @@ nav ul li a {
   /* position:relative; */
 }
 
-.p {
-  float: left;
+.texto-sobre {
+  font-size: 26px;
+  margin-top: 35px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.text-rose {
+  color: #e7585a;
+}
+
+.text-blue {
+  color: #0f4c81;
 }
 
 .img2 p {
@@ -140,21 +152,12 @@ nav ul li a {
 }
 
 .retangule {
-  /* border-style: solid;
-    color: #0F4C81;
-    border-bottom-width: 20px;
-    border-top-width: 0px;
-    border-right-width: 20px;
-    border-left-width: 20px;  
-    border: 10px solid;
-    border-image: linear-gradient(0deg,#0F4C81, #F6F6F6 100%)1;*/
-  width: 472px;
-  height: 576px;
+  width: 428px;
+  height: 521px;
   left: 911px;
   top: 1355px;
-
-  /* background: #0F4C81;  */
-  box-shadow: -1em 1em 0em 0em #0f4c81;
+  border-radius: 45px;
+  box-shadow: -10px 10px 0px 0px #0f4c81;
   margin: 0 50px;
 }
 
@@ -265,17 +268,13 @@ section .cards .card .botao button a {
   #secao-1-content {
     width: 55%;
   }
-  nav ul{
+  nav ul {
     padding-left: 25rem;
   }
 
   section .cards .card {
     margin: 20px 20px 20px 20px;
   }
-
-
-
-
 }
 
 @media (max-width: 884px) {
@@ -288,6 +287,7 @@ section .cards .card .botao button a {
     background-repeat: no-repeat;
     background-size: contain;
     padding: 30px 0px;
+    height: 500px;
   }
 
   #secao-1-content {
@@ -343,6 +343,13 @@ section .cards .card .botao button a {
     border-radius: 15px;
     margin-left: 70px;
   }
+  #secao-1{
+    padding: 30px 0px 0px;
+    height: 460px;
+  }
+  #secao-1-main {
+    padding: 30px 15px 0px 25px;
+  }
 
   #secao-1-content {
     width: 90%;
@@ -353,10 +360,24 @@ section .cards .card .botao button a {
   }
   #titulo2 {
     font-size: 25px;
+    line-height: 70px;
+  }
+
+  #contanier-div {
+    margin-top: 0px;
+    padding: 0 30px;
+  }
+  h3{
+    font-size: 26px;
+   }
+  .texto-sobre {
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: center;
   }
 
   .retangule {
-    margin-bottom: 30px;
+    display: none;
   }
 }
 
@@ -367,8 +388,11 @@ section .cards .card .botao button a {
   #secao-1-text {
     font-size: 17px;
     padding-right: 80px;
+    
   }
-
+   h3{
+    font-size: 24px;
+   }
   #saiba-como {
     font-size: 20px;
     padding: 0px 20px;
