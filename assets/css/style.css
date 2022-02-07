@@ -269,8 +269,105 @@ section .cards .card .botao button a {
   width: 50px;
 }
 
+/* Modal doações */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
 
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
 
+.modal-titulo {
+  font-size: 30px;
+  width: 515px;
+}
+.modal-texto-pergunta {
+  font-size: 24px;
+}
+
+.texto-orientacao {
+  font-size: 14px;
+  width: 265px;
+}
+
+.modal-valores {
+  display: flex;
+  margin-top: 10px;
+}
+
+.box-valor-doação {
+  width: fit-content;
+  margin-right: 5px;
+}
+
+.modal-content {
+  display: flex;
+}
+
+.estilo-doação {
+  width: fit-content;
+  background-color: #e7585a;
+  padding: 8px;
+  border-radius: 15px;
+  color: #f6f6f6;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.qr-code {
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 0px 40px #e7585a;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.box-qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-qr {
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #0f4c81;
+  color: #f6f6f6;
+  margin: 5px 0;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.modal-aviso {
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+.fa-exclamation-circle {
+  font-size: 16px;
+  color: #e7585a;
+}
+
+.fas {
+  display: inline !important;
+}
+.x-icon {
+  color: #f6f6f6;
+  font-size: 30px;
+  position: absolute;
+  top: 5%;
+  left: 92%;
+  cursor: pointer;
+}
 
 
 
@@ -291,6 +388,13 @@ section .cards .card .botao button a {
   nav ul {
     padding-left: 60rem;
   }
+
+  .box-direitos {
+    padding-left: 90px;
+  }
+  .logo-footer {
+    margin-left: 365px;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -310,7 +414,14 @@ section .cards .card .botao button a {
   section .cards .card {
     margin: 20px 20px 20px 20px;
   }
+  .box-direitos {
+    padding-left: 0px;
+  }
+  .logo-footer {
+    margin-left: 275px;
+  }
 }
+
 @media (max-width: 1080px) {
   #secao-1 {
     background-size: contain;
@@ -343,7 +454,7 @@ section .cards .card .botao button a {
     height: 470px;
   }
 
-  .logo-footer{
+  .logo-footer {
     margin-left: 95px;
   }
 }
@@ -488,35 +599,69 @@ section .cards .card .botao button a {
     display: none;
   }
 
-  #contato{
+  #contato {
     flex-direction: column;
-    
   }
 
-  .texto-contato{
+  .texto-contato {
     text-align: center;
   }
 
-  .box-contato{
+  .box-contato {
     order: 0;
   }
-  .box-logos{
+  .box-logos {
     margin-left: 90px;
   }
 
-  .box-logo-soul{
+  .box-logo-soul {
     order: 1;
   }
-  .box-direitos{
+  .box-direitos {
     order: 2;
     font-size: 14px;
     text-align: center;
   }
-  .logo-footer{
+  .logo-footer {
     margin-left: 150px;
   }
 
+  .modal {
+    width: 80%;
+    padding: 20px;
+  }
 
+  .modal-titulo {
+    font-size: 19px;
+    width: 245px;
+  }
+
+  .modal-texto-pergunta {
+    font-size: 18px;
+  }
+
+  .modal-content {
+    flex-direction: column;
+  }
+  .texto-orientacao {
+    font-size: 14px;
+    width: 245px;
+  }
+
+  .box-qr {
+    align-items: flex-start;
+  }
+  .qr-code {
+    display: none;
+  }
+
+  .button-qr {
+    margin: 10px 0px 0;
+  }
+
+  .x-icon {
+    left: 85%;
+  }
 }
 
 @media (max-width: 380px) {
@@ -545,15 +690,17 @@ section .cards .card .botao button a {
     margin-top: 0px;
   }
 
-  .box-logos{
+  .box-logos {
     margin-left: 70px;
   }
-  .logo-footer{
+  .logo-footer {
     margin-left: 130px;
   }
-  .box-direitos{
-
+  .box-direitos {
     font-size: 13px;
-   
+  }
+
+  section .cards .card button {
+    padding: 10px;
   }
 }
