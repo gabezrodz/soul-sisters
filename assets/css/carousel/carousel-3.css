@@ -1,5 +1,8 @@
 .carousel-terceiro-geral{
-    background-color: #CE2E20;
+    background-image: url("../../image/carousel/SLIDE-03-WEB.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
 }
 .carousel-terceiro{
     display: grid; grid-template-columns: 10% 80%;
@@ -14,10 +17,11 @@
     text-align: center; color: #FFFFFF;
 }
 .carousel-terceiro .carousel-terceiro-corpo-topo h1{
-    font-size: 52px;
+    font-size: 66px;
+    padding-top: 150px;
 }
 .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-    font-size: 320px;
+    font-size: 135px;
 }
 .carousel-terceiro .carousel-terceiro-corpo-corpo p{
     font-size: 40px;
@@ -74,8 +78,17 @@
 }
 
 @media(max-width:695px){
+    .carousel-terceiro-geral{
+        background-image: url("../../image/carousel/SLIDE-03-MOBILE.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 640px;
+    }
     .carousel-terceiro .carousel-terceiro-corpo-topo h2{
         font-size: 260px;
+    }
+    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
+        padding-top: 65px;
     }
 }
 
@@ -124,13 +137,13 @@
 
 @media(max-width:415px){
     .carousel-terceiro .carousel-terceiro-corpo-topo h1{
-        font-size: 35px;
+        font-size: 26px;
     }
     .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 150px;
+        font-size: 70px;
     }
     .carousel-terceiro .carousel-terceiro-corpo-corpo p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
     font-size: 45px;
@@ -143,7 +156,7 @@
         font-size: 30px;
     }
     .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 120px;
+        font-size: 62px;
     }
     .carousel-terceiro .carousel-terceiro-corpo-corpo p{
         font-size: 20px;

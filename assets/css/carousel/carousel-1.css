@@ -1,19 +1,25 @@
 .carousel-primeiro{
-    background-color: #F16969;
+    background-image: url('../../image/carousel/SLIDE-01-WEB.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
 }
 .carousel-primeiro .carousel-primeiro-topo{
     display: grid; grid-template-columns: 80% 20%;
 }
 .carousel-primeiro .carousel-primeiro-topo .carousel-primeiro-topo-titulo{
-    color: #FFFFFF; font-size: 70px;
+    color: #FFFFFF;
+    font-size: 55px;
     margin-left: 70px;
+    margin-top: 125px;
+    margin-bottom: 40px;
 }
 .carousel-primeiro .carousel-primeiro-corpo{
     display: grid; grid-template-columns: 57% 33% 10%;
     align-items: center;
 }
 .carousel-primeiro .carousel-primeiro-corpo .carousel-primeiro-corpo-paragrafo{
-    color: #FFFFFF; font-size: 45px;
+    color: #FFFFFF; font-size: 34px;
     margin-left: 70px; font-weight: 500;
 }
 .carousel-primeiro .carousel-primeiro-corpo .carousel-primeiro-corpo-botao{
@@ -30,7 +36,7 @@
     grid-template-columns: repeat(1, 1fr);
 }
 .carousel-primeiro-rodape .carousel-primeiro-rodape-botao{
-    margin-top: 60px; text-align: center;
+    margin-top: 35px; text-align: center;
 }
 .carousel-primeiro-rodape .carousel-primeiro-rodape-botao button{
     background-color: #303030; color: #FFFFFF; border: none;
@@ -49,6 +55,7 @@
 .carousel-primeiro .carousel-primeiro-rodape-texto .carousel-primeiro-rodape-texto-paragrafo h1{
     color: #FFFFFF;
     font-size: 40px; text-align: center;
+    padding: 40px 0px;
 }
 
 
@@ -80,6 +87,12 @@
 }
 
 @media(max-width:538px){
+    .carousel-primeiro{
+        background-image: url('../../image/carousel/SLIDE-01-MOBILE.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 640px;
+    }
     .carousel-primeiro .carousel-primeiro-topo .carousel-primeiro-topo-titulo{
         font-size: 40px;
         margin-left: 5px;
@@ -102,13 +115,19 @@
     .carousel-primeiro .carousel-primeiro-topo .carousel-primeiro-topo-titulo{
         font-size: 30px;
         margin-left: 10px;
+        margin-top: 50px;
+        margin-bottom: 0px;
     }
     .carousel-primeiro .carousel-primeiro-corpo .carousel-primeiro-corpo-paragrafo{
-        font-size: 25px;
-        margin-left: 10px; margin-top: 20px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 20px;
     }
     .carousel-primeiro .carousel-primeiro-rodape-texto .carousel-primeiro-rodape-texto-paragrafo h1{
-        font-size: 30px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        font-size: 25px;
+        padding: 0px;
     }
 }
 
@@ -118,12 +137,22 @@
         margin-left: 10px;
     }
     .carousel-primeiro .carousel-primeiro-corpo .carousel-primeiro-corpo-paragrafo{
-        font-size: 20px;
-        margin-left: 10px;
+        font-size: 18px;
+        margin-left: 32px;
     }
     .carousel-primeiro .carousel-primeiro-rodape-texto .carousel-primeiro-rodape-texto-paragrafo h1{
         font-size: 25px;
+        padding: 0px 0px;
     }
+
+    .carousel-primeiro .carousel-primeiro-topo .carousel-primeiro-topo-titulo{
+        /* padding-left: 20px; */
+        font-size: 26px;
+        margin-top: 45px;
+        
+        margin-bottom: 0px;
+    }
+    
 }
 
 @media(max-width:1114px){
