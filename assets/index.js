@@ -18,19 +18,19 @@ const modalDisplay = () =>{
 
 const alteraCodCopia80 = function(){
    selecionaCodigoCopia.setAttribute('data-qr','00020126330014BR.GOV.BCB.PIX011135639514892520400005303986540580.005802BR5917Juliana Abbamonte6009Sao Paulo62070503***63044008')
-   selecionaCodigoCopia.src = '../assets/image/QR-80.png'
+   selecionaCodigoCopia.src = 'assets/image/QR-80.png'
 }
 const alteraCodCopia50 = function(){
    selecionaCodigoCopia.setAttribute('data-qr','00020126330014BR.GOV.BCB.PIX011135639514892520400005303986540550.005802BR5917Juliana Abbamonte6009Sao Paulo62070503***6304BCE4')
-   selecionaCodigoCopia.src = '../assets/image/QR-50.png'
+   selecionaCodigoCopia.src = 'assets/image/QR-50.png'
 }
 const alteraCodCopia25 = function(){
    selecionaCodigoCopia.setAttribute('data-qr','00020126330014BR.GOV.BCB.PIX011135639514892520400005303986540525.005802BR5917Juliana Abbamonte6009Sao Paulo62070503***6304BC0E')
-   selecionaCodigoCopia.src = '../assets/image/QR-25.png'
+   selecionaCodigoCopia.src = 'assets/image/QR-25.png'
 }
 const alteraCodCopiaOutro = function(){
    selecionaCodigoCopia.setAttribute('data-qr','00020126330014BR.GOV.BCB.PIX0111356395148925204000053039865802BR5917Juliana Abbamonte6009Sao Paulo62070503***6304F922')
-   selecionaCodigoCopia.src = '../assets/image/qr-qualquer-valor.png'
+   selecionaCodigoCopia.src = 'assets/image/qualquer-valor.png'
 }
 
 
