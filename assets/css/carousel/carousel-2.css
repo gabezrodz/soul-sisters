@@ -68,10 +68,20 @@
 }
 
 
+@media(max-width:1040px){
+    .carousel-segundo .carousel-segundo-topo .carousel-segundo-topo-titulo{
+        font-size: 38px;
+        margin-top: 160px;
+    }
+    .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo p{
+        font-size: 40px;
+    }
+} 
 
 @media(max-width:800px){
     .carousel-segundo .carousel-segundo-topo .carousel-segundo-topo-titulo{
-        font-size: 45px;
+        font-size: 37px;
+        margin-top: 228px;
     }
     .carousel-segundo .carousel-segundo-corpo .carousel-segundo-corpo-paragrafo p{
         font-size: 35px;

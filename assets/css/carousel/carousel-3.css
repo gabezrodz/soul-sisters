@@ -1,180 +1,218 @@
-.carousel-terceiro-geral{
-    background-image: url("../../image/carousel/SLIDE-03-WEB.png");
+.carousel-terceiro-geral {
+  background-image: url("../../image/carousel/SLIDE-03-WEB.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+.carousel-terceiro {
+  display: grid;
+  grid-template-columns: 10% 80%;
+  align-items: center;
+}
+.carousel-terceiro .carousel-terceiro-botao-esquerdo button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 55px;
+  cursor: pointer;
+}
+.carousel-terceiro .carousel-terceiro-corpo {
+  text-align: center;
+  color: #ffffff;
+}
+.carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+  font-size: 66px;
+  padding-top: 150px;
+}
+.carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+  font-size: 135px;
+}
+.carousel-terceiro .carousel-terceiro-corpo-corpo p {
+  font-size: 40px;
+}
+.carousel-terceiro .carousel-terceiro-rodape {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.carousel-terceiro
+  .carousel-terceiro-rodape
+  .carousel-terceiro-rodape-botao
+  button {
+  background-color: #303030;
+  color: #ffffff;
+  border: none;
+  font-size: 38px;
+  border-radius: 15px;
+  padding: 8px 0px 8px 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 60px;
+}
+
+.carousel-terceiro-rodape {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.carousel-terceiro-rodape .carousel-terceiro-rodape-botao button {
+  background-color: #303030;
+  color: #ffffff;
+  border: none;
+  font-size: 38px;
+  border-radius: 15px;
+  padding: 8px 0px 8px 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: none;
+}
+.carousel-terceiro-rodape .carousel-terceiro-rodape-texto {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo {
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1 {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+    font-size: 65px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 90px;
+  }
+}
+
+
+
+@media (max-width: 793px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 125px;
+  }
+
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1{
+    font-size: 60px;
+    padding-top: 100px;
+  }
+
+
+  .carousel-terceiro .carousel-terceiro-corpo-corpo p{
+    font-size: 32px;
+  }
+}
+
+
+
+@media (max-width: 744px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 280px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-corpo p {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 695px) {
+  .carousel-terceiro-geral {
+    background-image: url("../../image/carousel/SLIDE-03-MOBILE.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
-}
-.carousel-terceiro{
-    display: grid; grid-template-columns: 10% 80%;
-    align-items: center;
-}
-.carousel-terceiro .carousel-terceiro-botao-esquerdo button{
-    background-color: transparent; border: none; color: #FFFFFF;
-    border-radius: 50px; font-size: 55px;
-    cursor: pointer;
-}
-.carousel-terceiro .carousel-terceiro-corpo{
-    text-align: center; color: #FFFFFF;
-}
-.carousel-terceiro .carousel-terceiro-corpo-topo h1{
-    font-size: 66px;
-    padding-top: 150px;
-}
-.carousel-terceiro .carousel-terceiro-corpo-topo h2{
-    font-size: 135px;
-}
-.carousel-terceiro .carousel-terceiro-corpo-corpo p{
-    font-size: 40px;
-}
-.carousel-terceiro .carousel-terceiro-rodape{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    height: 640px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 260px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+    padding-top: 65px;
+  }
 }
 
-.carousel-terceiro .carousel-terceiro-rodape .carousel-terceiro-rodape-botao button{
-    background-color: #303030; color: #FFFFFF; border: none;
-    font-size: 38px; border-radius: 15px;
-    padding: 8px 0px 8px 0px; text-transform: uppercase;
-    cursor: pointer; margin-top: 60px;
+@media (max-width: 646px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+    font-size: 42px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 230px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-corpo p {
+    font-size: 30px;
+  }
 }
 
-.carousel-terceiro-rodape{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.carousel-terceiro-rodape .carousel-terceiro-rodape-botao button{
-    background-color: #303030; color: #FFFFFF; border: none;
-    font-size: 38px; border-radius: 15px;
-    padding: 8px 0px 8px 0px; text-transform: uppercase;
-    cursor: pointer; display: none;
-}
-.carousel-terceiro-rodape .carousel-terceiro-rodape-texto{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-.carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo{
-    margin-top: 20px;
-    padding-bottom: 40px;
-}
-.carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1{
-    color: #FFFFFF;
-    font-size: 40px; text-align: center;
+@media (max-width: 555px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+    font-size: 42px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 210px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-corpo p {
+    font-size: 30px;
+  }
+  .carousel-terceiro .carousel-terceiro-botao-esquerdo button {
+    display: none;
+  }
 }
 
-
-@media(max-width:793px){
-    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 300px;
-    }
-}
-
-@media(max-width:744px){
-    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 280px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
-        font-size: 35px;
-    }
-}
-
-@media(max-width:695px){
-    .carousel-terceiro-geral{
-        background-image: url("../../image/carousel/SLIDE-03-MOBILE.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 640px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 260px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
-        padding-top: 65px;
-    }
-}
-
-@media(max-width:646px){
-    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
-        font-size: 42px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 230px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
-        font-size: 30px;
-    }
-}
-
-@media(max-width:555px){
-    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
-        font-size: 42px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 210px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
-        font-size: 30px;
-    }
-    .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
-        display: none;
-    }
-}
-
-@media(max-width:499px){
-    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
-        font-size: 42px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 180px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
-        font-size: 25px;
-    }
-    .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
+@media (max-width: 499px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+    font-size: 42px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 180px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-corpo p {
+    font-size: 25px;
+  }
+  .carousel-terceiro .carousel-terceiro-botao-esquerdo button {
     font-size: 45px;
-    }
-    
+  }
 }
 
-@media(max-width:415px){
-    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
-        font-size: 26px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 70px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
-        font-size: 20px;
-    }
-    .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
+@media (max-width: 415px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+    font-size: 26px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 70px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-corpo p {
+    font-size: 20px;
+  }
+  .carousel-terceiro .carousel-terceiro-botao-esquerdo button {
     font-size: 45px;
-    }
-    
+  }
 }
 
-@media(max-width:380px){
-    .carousel-terceiro .carousel-terceiro-corpo-topo h1{
-        font-size: 30px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-topo h2{
-        font-size: 62px;
-    }
-    .carousel-terceiro .carousel-terceiro-corpo-corpo p{
-        font-size: 20px;
-    }
-    .carousel-terceiro .carousel-terceiro-botao-esquerdo button{
+@media (max-width: 380px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+    font-size: 30px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
+    font-size: 62px;
+  }
+  .carousel-terceiro .carousel-terceiro-corpo-corpo p {
+    font-size: 20px;
+  }
+  .carousel-terceiro .carousel-terceiro-botao-esquerdo button {
     font-size: 45px;
-    }
-    
+  }
 }
 
-@media(max-width:480px){
-    .carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1{
-        font-size: 30px;
-    }
+@media (max-width: 480px) {
+  .carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1 {
+    font-size: 30px;
+  }
 }
 
-@media(max-width:380px){
-    .carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1{
-        font-size: 25px;
-    }
+@media (max-width: 380px) {
+  .carousel-terceiro-rodape-texto .carousel-terceiro-rodape-texto-paragrafo h1 {
+    font-size: 25px;
+  }
 }
