@@ -12,6 +12,12 @@ html {
   width: 100%;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: #f6f6f6;
 }
@@ -30,16 +36,17 @@ button {
   width: 230px;
   height: auto;
 }
-
+/*
 nav {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-between;
   margin-left: 25px;
 }
 
 nav ul {
-  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
@@ -50,12 +57,40 @@ nav ul li {
   padding-left: 0.5rem;
   font-size: 25px;
   padding: 10px;
+}*/
+#secao-1 {
+  background-image: url("../image/headder-background.png");
+  background-repeat: no-repeat;
+  height: 200vh;
+  background-size: contain;
+}
+
+nav {
+  display: flex;
+  margin-left: 25px;
+  padding: 25px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-left: 25rem;
+}
+
+nav ul li {
+  white-space: nowrap;
+  padding-right: 2rem;
 }
 
 nav ul li a {
   color: #ffffff;
+  font-size: 25px;
   text-decoration: none;
   list-style-type: none;
+}
+
+#secao-1-content {
+  width: 50%;
 }
 
 #secao-1-main {
@@ -76,11 +111,6 @@ nav ul li a {
   color: #ffffff;
   margin-top: 52px;
   font-size: 30px;
-}
-
-#secao-1-arte {
-  width: 60%;
-  padding-top: 1.4rem;
 }
 
 #saiba-como {
@@ -242,30 +272,29 @@ section .cards .card .botao button a {
 
 /* Footer */
 
-#contato{
+#contato {
   display: flex;
   align-items: flex-end;
 }
 
-
-.box-contato{
+.box-contato {
   display: flex;
   flex-direction: column;
   font-size: 32px;
   margin-left: 50px;
 }
-.texto-contato{
+.texto-contato {
   font-size: 32px;
   padding-left: 8px;
   color: #0f4c81;
 }
 
-.logo-footer{
+.logo-footer {
   width: 100px;
   margin-left: 275px;
 }
 
-.logo-redes{
+.logo-redes {
   width: 50px;
 }
 
@@ -369,9 +398,6 @@ section .cards .card .botao button a {
   cursor: pointer;
 }
 
-
-
-
 /* Modelo Teste de responsividade */
 @media (max-width: 1980px) {
   #secao-1 {
@@ -386,7 +412,7 @@ section .cards .card .botao button a {
     width: 30%;
   }
   nav ul {
-    padding-left: 60rem;
+    padding-left: 10rem;
   }
 
   .box-direitos {
@@ -408,7 +434,7 @@ section .cards .card .botao button a {
     width: 55%;
   }
   nav ul {
-    padding-left: 25rem;
+    padding-left: 10rem;
   }
 
   section .cards .card {
@@ -425,7 +451,7 @@ section .cards .card .botao button a {
 @media (max-width: 1080px) {
   #secao-1 {
     background-size: contain;
-    height: 715px;
+    height: 100vh;
   }
   nav ul {
     padding-left: 2rem;
@@ -466,12 +492,17 @@ section .cards .card .botao button a {
     margin-left: 0px;
   }
 
+  nav ul li a {
+    font-size: 1.1rem;
+  }
+
   #secao-1 {
     background-image: url("../image/headder-background.png");
     background-repeat: no-repeat;
     background-size: contain;
     padding: 30px 0px;
-    height: 540px;
+    height: 640px;
+    background-size: 100%;
   }
 
   #secao-1-content {
@@ -539,6 +570,7 @@ section .cards .card .botao button a {
     background-image: url("../image/IMAGE-HOME-DEGRADE-NOTEXT-MOBILE.png");
     padding: 30px 0px 0px;
     height: 460px;
+    background-size: 100%;
   }
   #secao-1-text-header {
     font-size: 28px;
@@ -597,6 +629,10 @@ section .cards .card .botao button a {
   }
   .navbar {
     display: none;
+  }
+
+  #ajude-agora {
+    font-size: 2.5rem;
   }
 
   #contato {
@@ -664,7 +700,7 @@ section .cards .card .botao button a {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 393px) {
   #secao-1-content {
     width: 100%;
   }
@@ -673,7 +709,7 @@ section .cards .card .botao button a {
   }
   #secao-1-text {
     font-size: 17px;
-    padding-right: 80px;
+    padding-right: 70px;
   }
   h3 {
     font-size: 24px;
@@ -688,6 +724,10 @@ section .cards .card .botao button a {
   }
   #contanier-div {
     margin-top: 0px;
+  }
+
+  #ajude-agora {
+    font-size: 2rem;
   }
 
   .box-logos {
