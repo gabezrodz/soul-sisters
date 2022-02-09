@@ -100,12 +100,16 @@
     .carousel-segundo .carousel-segundo-topo .carousel-segundo-imagem-abs{
         display: block;
     }
+    .carousel-segundo .carousel-segundo-topo .carousel-segundo-topo-titulo {
+        font-size: 20px;
+        margin-top: 50px;
+    }
     .carousel-segundo .carousel-segundo-topo .carousel-segundo-topo-titulo h1{
-        display: none;
+        
     }
     .carousel-segundo .carousel-segundo-topo{
-        display: grid;
-        grid-template-columns: 20% 50% 30%;
+        /* display: grid;
+        grid-template-columns: 20% 50% 30%; */
     }
     .carousel-segundo-rodape .carousel-segundo-rodape-botao{
         display: none;
