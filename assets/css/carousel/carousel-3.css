@@ -80,6 +80,13 @@
   text-align: center;
 }
 
+@media (min-width: 2352px) {
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
+    font-size: 66px;
+    padding-top: 210px;
+  }
+}
+
 @media (max-width: 1024px) {
   .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
     font-size: 65px;
@@ -89,25 +96,20 @@
   }
 }
 
-
-
 @media (max-width: 793px) {
   .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
     font-size: 125px;
   }
 
-  .carousel-terceiro .carousel-terceiro-corpo-topo h1{
+  .carousel-terceiro .carousel-terceiro-corpo-topo h1 {
     font-size: 60px;
     padding-top: 100px;
   }
 
-
-  .carousel-terceiro .carousel-terceiro-corpo-corpo p{
+  .carousel-terceiro .carousel-terceiro-corpo-corpo p {
     font-size: 32px;
   }
 }
-
-
 
 @media (max-width: 744px) {
   .carousel-terceiro .carousel-terceiro-corpo-topo h2 {
