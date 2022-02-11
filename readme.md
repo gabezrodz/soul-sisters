@@ -20,7 +20,7 @@
 
 ### **[Acesse o site aqui](https://campanhasoulsisters.netlify.app/)**
 
-![Gif-SiteCampanha](https://j.gifs.com/k2Xmqr.gif)
+![Gif-SiteCampanha](https://i.imgur.com/YqPkHbf.gif)
 
 ### Como foi feito?
 
