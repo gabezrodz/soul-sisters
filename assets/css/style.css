@@ -400,9 +400,6 @@ section .cards .card .botao button a {
 
 /* Modelo Teste de responsividade */
 
-
-
-
 @media (max-width: 1980px) {
   #secao-1 {
     background-image: url("../image/headder-background.png");
