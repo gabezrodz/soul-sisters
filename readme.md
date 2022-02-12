@@ -21,7 +21,7 @@
 ### **[Acesse o site aqui](https://campanhasoulsisters.netlify.app/)**
 
 <p align="center">
-<img width="460" height="300" src="src/assets/image/ToReadMe.gif">
+<img width="460" height="300" src="assets/image/ToReadMe.gif">
 </p>
 
 ### Como foi feito?
